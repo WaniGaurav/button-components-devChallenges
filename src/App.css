@@ -1,0 +1,32 @@
+
+
+.container{
+    width: min(100% , 1203px);
+    padding: 1rem 0 1rem 0;
+    margin: auto;
+    border: 2px solid red;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-container{
+    display: flex;
+}
+
+/* left */
+
+.left{
+    flex-basis: 30%;
+    border: 2px solid green;
+}
+
+
+/* right */
+
+.right{
+    flex-basis: 70%;
+    border: 2px solid orange;
+}

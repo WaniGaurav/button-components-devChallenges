@@ -13,7 +13,10 @@ function App() {
             <Sidebar />
           </div>
           <div className="right">
-            <MainContent />
+            <div className='btn-div'>
+                <MainContent type="button" classv="default" text="<Button />"/>
+                <MainContent disabled="disabled" classv="default" text="<Button disabled />"/>
+            </div>
           </div>
         </div>
       </div>

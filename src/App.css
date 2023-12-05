@@ -1,6 +1,9 @@
-
+:root {
+    background-color: black;
+}
 
 .container{
+    background-color: rgb(237, 183, 183);
     width: min(100% , 1203px);
     padding: 1rem 0 1rem 0;
     margin: auto;
@@ -30,3 +33,16 @@
     flex-basis: 70%;
     border: 2px solid orange;
 }
+.btn-generate{
+    margin: 0 0 1rem 0;
+    display: flex;
+}
+
+/* buttons classes start */
+
+.default{
+    width: 5rem;
+    height: 2rem;
+}
+
+/* buttons classes end */
